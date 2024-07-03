@@ -4,115 +4,115 @@
   <img src="#" alt="revShell" width="400">
 </p>
 
-## Descripción
+## Description
 
-**revShell** es una herramienta poderosa y versátil para generar varios tipos de shells inversos (reverse shells) en múltiples lenguajes de programación. Esta herramienta facilita la generación rápida y eficiente de comandos de reverse shell, proporcionando diferentes métodos y opciones para diversas situaciones y entornos.
+**revShell** is a powerful and versatile tool for generating various types of reverse shells in multiple programming languages. This tool facilitates the quick and efficient generation of reverse shell commands, providing different methods and options for various situations and environments.
 
-## Funcionalidades
+## Features
 
-`revShell` soporta la generación de reverse shells en los siguientes lenguajes y entornos:
+`revShell` supports the generation of reverse shells in the following languages ​​and environments:
 
-- **PHP**: Utiliza diferentes métodos como `exec`, `shell_exec`, `system`, `passthru`, `popen`, `proc_open`.
-- **PowerShell**: Proporciona múltiples variantes, incluyendo conexiones encriptadas con TLS.
-- **Python**: Compatible con versiones 2.x y 3.x, usando sockets y `pty`.
-- **Ruby**: Shells con y sin uso de `sh`.
-- **socat**: Con soporte para TTY.
-- **SQLite3 y netcat**: Uso combinado para crear shells inversos.
-- **node.js**: Utilizando el módulo `child_process`.
-- **Groovy**: Utiliza sockets y `ProcessBuilder`.
-- **telnet**: Shell inverso utilizando `telnet`.
-- **zsh**: Usando `zmodload` y `ztcp`.
-- **Lua**: Con `socket` y `os` módulos.
-- **Golang**: Shell inverso utilizando `net` y `os/exec`.
-- **Vlang**: Utilizando `os.system`.
-- **Awk**: Usando sockets inet.
-- **Dart**: Usando `dart:io` y `dart:convert`.
-- **Crystal**: Utilizando `process` y `socket`.
+- **PHP**: Use different methods such as `exec`, `shell_exec`, `system`, `passthru`, `popen`, `proc_open`.
+- **PowerShell**: Provides multiple variants, including TLS encrypted connections.
+- **Python**: Compatible with versions 2.x and 3.x, using sockets and `pty`.
+- **Ruby**: Shells with and without use of `sh`.
+- **socat**: With TTY support.
+- **SQLite3 and netcat**: Combined use to create reverse shells.
+- **node.js**: Using the `child_process` module.
+- **Groovy**: Uses sockets and `ProcessBuilder`.
+- **telnet**: Reverse shell using `telnet`.
+- **zsh**: Using `zmodload` and `ztcp`.
+- **Lua**: With `socket` and `os` modules.
+- **Golang**: Reverse shell using `net` and `os/exec`.
+- **Vlang**: Using `os.system`.
+- **Awk**: Using inet sockets.
+- **Dart**: Using `dart:io` and `dart:convert`.
+- **Crystal**: Using `process` and `socket`.
 
-## Instalación
+## Installation
 
-Para instalar y configurar `revShell`, sigue los pasos a continuación:
+To install and configure `revShell`, follow the steps below:
 
-### Clona el Repositorio
+### Clone the Repository
 
 ```bash
 git clone https://github.com/D1se0/revShell.git
 cd revShell
 ```
 
-### Ejecuta el Script de Requisitos
+### Run the Requirements Script
 
-El script requirements.sh instalará todas las dependencias necesarias y configurará la herramienta para que pueda ser utilizada desde cualquier lugar en la terminal.
+The requirements.sh script will install all the necessary dependencies and configure the tool so that it can be used from anywhere in the terminal.
 
 ```bash
 sudo ./requirements.sh
 ```
 
-### Verifica la Instalación
+### Verify Installation
 
-Después de ejecutar el script de requisitos, verifica que la herramienta está instalada correctamente:
+After running the requirements script, verify that the tool is installed correctly:
 
 ```bash
 revShell -h
 ```
-o desde el script `.py`
+or from the `.py` script
 
 ```bash
 python3 revShell.py -h
 ```
 
-## Uso
+## Use
 
-`revShell` es extremadamente fácil de usar. A continuación, se presentan algunos ejemplos de cómo generar diferentes tipos de reverse shells.
+`revShell` is extremely easy to use. Below are some examples of how to generate different types of reverse shells.
 
 ```bash
-python3 revShell.py -i <IP_HOST> -p <PORT> -t <FORMAT>
+python3 revShell.py -i <HOST_IP> -p <PORT> -t <FORMAT>
 ```
 
-### Ejemplos
+### Examples
 
-Generar un Reverse Shell en bash:
+Generate a Reverse Shell in bash:
 
 ```bash
 python3 revShell.py -i 10.10.11.11 -p 7777 -t 'bash -i'
 ```
 
-Generar un Reverse Shell en PHP:
+Generate a Reverse Shell in PHP:
 
 ```bash
 python3 revShell.py -i 10.10.11.11 -p 7777 -t 'PHP proc_open'
 ```
 
-Generar un Reverse Shell en PowerShell:
+Generate a Reverse Shell in PowerShell:
 
 ```bash
 python3 revShell.py -i 10.10.11.11 -p 7777 -t 'PowerShell #1'
 ```
 
-Generar un Reverse Shell en Python:
+Generate a Reverse Shell in Python:
 
 ```bash
 python3 revShell.py -i 10.10.11.11 -p 7777 -t 'Python #1'
 ```
 
-Generar un Reverse Shell en Ruby:
+Generate a Reverse Shell in Ruby:
 
 ```bash
 python3 revShell.py -i 10.10.11.11 -p 7777 -t 'Ruby #1'
 ```
 
-Otras Opciones:
+Other options:
 
-`revShell` soporta muchas más opciones y lenguajes. Para ver todas las opciones disponibles:
+`revShell` supports many more options and languages. To see all available options:
 
 ```bash
 python3 revShell.py -fh
 ```
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Por favor, envía un `pull request` o abre un `issue` para discutir los cambios que te gustaría realizar.
+Contributions are welcome. Please submit a pull request or open an issue to discuss the changes you would like to make.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo los términos de la licencia MIT.
+This project is licensed under the terms of the MIT License.
