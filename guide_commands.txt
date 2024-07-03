@@ -1,0 +1,7 @@
+# Primero instalar los requisitos para poder ejecutar el script 'revShell' ejecutando el .sh de la siguiente manera siendo root...
+
+$ ./requirements.sh
+
+# Una vez instalado todo podemos probar a ejecutar la herramienta haciendo lo siguiente...
+
+$ revShell -h
