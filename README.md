@@ -1,6 +1,8 @@
 # revShell
 
-![Logo](https://path-to-your-logo-image/logo.png)
+<p align="center">
+  <img src="#" alt="revShell" width="400">
+</p>
 
 ## Descripción
 
