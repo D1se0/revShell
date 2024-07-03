@@ -34,7 +34,7 @@ Para instalar y configurar `revShell`, sigue los pasos a continuación:
 ### Clona el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/revShell.git
+git clone https://github.com/D1se0/revShell.git
 cd revShell
 ```
 
