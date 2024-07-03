@@ -104,7 +104,7 @@ Otras Opciones:
 `revShell` soporta muchas más opciones y lenguajes. Para ver todas las opciones disponibles:
 
 ```bash
-script -fh
+python3 revShell.py -fh
 ```
 
 ## Contribuciones
